@@ -177,7 +177,7 @@ services:
                     - 'node.platform.os == linux'
             resources:
                 limits:
-                    memory: 500M
+                    memory: 350M
                 reservations:
                     memory: 200M
 
