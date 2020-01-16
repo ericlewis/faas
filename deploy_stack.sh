@@ -54,7 +54,7 @@ fi
 arch=$(uname -m)
 case "$arch" in
 
-"armv7l") echo "Deploying OpenFaaS core services for ARM"
+"armv6l") echo "Deploying OpenFaaS core services for ARM"
           composefile="docker-compose.armhf.yml"
           ;;
 "aarch64") echo "Deploying OpenFaaS core services for ARM64"
